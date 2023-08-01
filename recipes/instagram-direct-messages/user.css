@@ -1,0 +1,20 @@
+/* Hide scrollbar */
+html[data-js-focus-visible] {
+    overflow-y: hidden !important;
+}
+
+/* Hide sidebar */
+body > div:nth-child(2) > div > div > div:nth-child(2) > div > div > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    display: none !important;
+}
+
+/* Remove sidebar space on the left */
+body > div:nth-child(2) > div > div > div:nth-child(2) > div > div > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+    width: 100% !important;
+}
+
+/* Remove sidebar space on the bottom */
+body > div:nth-child(2) > div > div > div:nth-child(2) > div > div > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > section > div > div > div {
+    min-height: 100vh !important;
+    height: 100% !important;
+}
