@@ -1,0 +1,4 @@
+/* Hide “update” section */
+span[data-testid="chat-butterbar"] {
+    display: none;
+}
