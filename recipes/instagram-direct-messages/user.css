@@ -1,4 +1,8 @@
-/* Hide scrollbar */
+/*
+ * Hide Instagram’s sidebar to keep only the messages tab.
+ */
+
+/* Hide page scrollbar */
 html[data-js-focus-visible] {
     overflow-y: hidden !important;
 }
